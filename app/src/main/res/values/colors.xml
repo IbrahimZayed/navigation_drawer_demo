@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e53935</color>
+    <color name="colorPrimaryDark">#ab000d</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="drawer_background">#880b2E</color>
+    <color name="recycleView_background">#FFFFFF</color>
+    <color name="gray_text">#7f7f7f</color>
+    <color name="dark_gray">#9E9E9E</color>
+</resources>
