@@ -34,7 +34,7 @@
                 android:id="@+id/drawer_itemset_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/recycleView_background"
+                android:background="@color/white_background"
                 android:paddingBottom="10dp"
                 android:paddingTop="10dp"
                 tools:itemCount="5">
@@ -46,7 +46,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:background="@color/recycleView_background"
+                android:background="@color/white_background"
                 android:paddingBottom="10dp"
                 android:paddingTop="10dp"
                 tools:itemCount="3">
@@ -61,14 +61,14 @@
                 android:paddingBottom="10dp"
                 android:paddingTop="10dp"
                 android:text="DASHBOARD"
-                android:textColor="@color/recycleView_background"
+                android:textColor="@color/white_background"
                 android:textStyle="bold" />
 
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/recycleView_background">
+            android:background="@color/white_background">
 
             <android.support.v7.widget.RecyclerView
                 android:id="@+id/drawer_itemset_3"
@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:layout_gravity="center_horizontal"
-                android:background="@color/recycleView_background"
+                android:background="@color/white_background"
                 tools:itemCount="3">
             </android.support.v7.widget.RecyclerView>
         </RelativeLayout>

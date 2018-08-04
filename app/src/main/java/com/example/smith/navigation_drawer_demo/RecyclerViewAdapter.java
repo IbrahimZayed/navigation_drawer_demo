@@ -20,8 +20,6 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
-    private static final String TAG = "RecyclerViewAdapter";
-
     private ArrayList<ItemData> itemData;
     private Context mContext;
     private int recyclerType; // 1=v 2=h
@@ -87,6 +85,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
     }
 
 
+    //Custom viewholder for vertical recyclerview
     public class ViewHolderVertical extends RecyclerView.ViewHolder {
 
         ImageView drawerIcon;
@@ -103,6 +102,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
         }
     }
 
+    //Custom viewholder for the horizontal recyclerview
     public class ViewHolderHorizontal extends RecyclerView.ViewHolder {
 
         CircleImageView hImageview;
